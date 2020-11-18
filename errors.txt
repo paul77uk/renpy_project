@@ -1,0 +1,15 @@
+﻿I'm sorry, but errors were detected in your script. Please correct the
+errors listed below, and try again.
+
+
+File "game/script.rpy", line 90: end of line expected.
+(Perhaps you left out a " at the end of the first line.)
+    ANNOUNCE "YOU ARE ABOUT TO MAKE YOUR FIRST CHOICE!
+    
+        Remember, you can only choose once, unless you click the "Back" button below.
+                                                                    ^
+    
+        CHOOSE WISELY!!!"
+
+Ren'Py Version: Ren'Py 7.3.5.606
+Tue Nov 17 19:07:46 2020

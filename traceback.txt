@@ -1,0 +1,22 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 159, in script
+    ANNOUINCE "This is how far the programme went yet. You will see more later. We hope you enjoyed!"
+Exception: Sayer 'ANNOUINCE' is not defined.
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 159, in script
+    ANNOUINCE "This is how far the programme went yet. You will see more later. We hope you enjoyed!"
+  File "C:\Users\Admin\Downloads\renpy-7.3.5-sdk\renpy\ast.py", line 678, in execute
+    who = eval_who(self.who, self.who_fast)
+  File "C:\Users\Admin\Downloads\renpy-7.3.5-sdk\renpy\ast.py", line 576, in eval_who
+    raise Exception("Sayer '%s' is not defined." % who.encode("utf-8"))
+Exception: Sayer 'ANNOUINCE' is not defined.
+
+Windows-8-6.2.9200
+Ren'Py 7.3.5.606
+CORONAVIRUS⚡STRIKE! 1.0
+Tue Nov 17 22:51:34 2020
